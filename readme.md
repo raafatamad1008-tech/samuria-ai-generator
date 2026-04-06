@@ -1,22 +1,30 @@
-# Samuria AI Generator (V1)
+# Samuria AI Content Automation Tool (V2)
 
-This is AI Generator project built using Python and OpenAI API.
+This is an AI-powered Content Automation Tool built using Python and OpenAI API.  
+It allows you to generate text, ads, and ideas with a simple and organized command-line interface (CLI).
 
 ## Features
-- Generate text (social media posts) using AI
-- Generate ads using AI
-- Generate ideas using AI
-- Saving generated prompts and results
-- Show last chats
-- Simple command-line interface (CLI)
-- User input for custom prompts
+- Generate text for social media, emails, or other content
+- Generate short, persuasive marketing ads
+- Generate creative ideas for any topic or category
+- Save generated prompts and results as JSON files
+- Show last chat history
+- Multi-result generation with user-defined count
+- Simple and user-friendly CLI
+- Dependency injection for flexible development
 
 ## Technologies Used
 - Python
 - OpenAI API
+- dotenv for environment variables
+- JSON for storing results
 
 ## Description
-This project allows the user to enter a topic, product, or idea, and the AI will generate text, ads, or creative ideas based on that input.
+This project enables users to input a topic, product, or category and automatically generate relevant content using OpenAI.  
+All generated results are saved locally, and users can easily review previous chats.  
+The tool is modular, making it easy to extend for web apps or further automation.
 
-## Author
-AI project as part of my journey to become an AI developer.
+## How to Run
+1. Install dependencies:
+   ```bash
+   pip install openai python-dotenv
